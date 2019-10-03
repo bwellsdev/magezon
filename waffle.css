@@ -64,9 +64,4 @@
     font-size: 20px;
     border-radius: 3px;
 }
-.hidestuff .block .title {
-    display: none  !important;
-}
-.hidestuff .block-actions {
-    display: none  !important;
-}
+
