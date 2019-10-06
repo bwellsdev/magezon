@@ -1,20 +1,13 @@
-.appliancedescriptionheader {
-  color : #0f273c;
+.appliancedescriptionheader h3, .appliancedescriptionheader h2 {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 900;
+  color:  #0f273c;
 }
 .appliancedescriptiontext {
   color : #616161;
   font-size: 16px;
   font-weight: 400;
 }
-
-.frequentlybought {
-  color: #0f273c;
-  font-size: 24px;
-  font-weight: 700;
-}
-
 .wafflebutton {
 	-moz-box-shadow:inset 0px 1px 3px 0px #0E263C;
 	-webkit-box-shadow:inset 0px 1px 3px 0px #0E263C;
@@ -36,7 +29,6 @@
 }
 .wafflebutton:hover {
 	background-color: #000000;
-	color: #ffffff;
 	text-decoration:none;
 }
 .wafflebutton:active {
@@ -45,7 +37,6 @@
 }
 .mgz-fa, .fas, .far, .fal, .fab {
     float: right;
-    vertical-align: middle;
     margin-left: 20px;
     margin-top: 8px;
 }
@@ -53,7 +44,6 @@
     float: left;
     margin-right: 10px;
 }
-
 .mgz-element-product_addtocart .field.qty label {
     display: none;
 }
@@ -64,4 +54,24 @@
     font-size: 20px;
     border-radius: 3px;
 }
-
+.stockstatus .stock.available:before {
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+content: "\f058";
+margin-right: 5px;
+color: #00aa56;
+font-size: 18px;
+}
+.linknochange a, .linknochange a:link, .linknochange a:visited, .linknochange a:hover, .linknochange a:focus, .linknochange a:active {
+	color: #ffffff;
+}
+.addtocartcolor .action.primary {
+    background: #00aa56;
+    border: 1px solid #00aa56;
+    color: #fff;
+}
+.addtocartcolor .action.primary:hover {
+    background: #146e44;
+    border: 1px solid #146e44;
+    color: #fff;
+}
