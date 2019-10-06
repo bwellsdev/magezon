@@ -75,4 +75,6 @@ font-size: 18px;
     border: 1px solid #146e44;
     color: #fff;
 }
- 
+.product-info-main .product-info-price {
+    border-bottom: none;
+}
